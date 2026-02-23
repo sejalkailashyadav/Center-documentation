@@ -4,12 +4,12 @@
 
 # 1️⃣ CENTER MANAGEMENT MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Center  
 - Document Gallery  
 
-## 🔹 Roles & Permissions
+##  ✔  Roles & Permissions
 
 | Role                | Permission                                                                 | Status |
 |---------------------|---------------------------------------------------------------------------|--------|
@@ -20,12 +20,12 @@
 
 # 2️⃣ CLASS MANAGEMENT MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Class  
 - Document Gallery  
 
-## 🔹 Roles & Permissions
+##  ✔  Roles & Permissions
 
 | Role                | Permission                                                                 | Status |
 |---------------------|---------------------------------------------------------------------------|--------|
@@ -36,11 +36,11 @@
 
 # 3️⃣ FEES MANAGEMENT MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Fees  
 
-## 🔹 Roles
+##  ✔  Roles
 
 | Role                | Permission                                                   | Status |
 |---------------------|-------------------------------------------------------------|--------|
@@ -50,13 +50,13 @@
 
 # 4️⃣ CHILD MASTER MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Child  
 
 ---
 
-## 🔹 STATUS FLOW (Very Important)
+##  ✔  STATUS FLOW (Very Important)
 
 ### 🟡 1. Review (Default)
 
@@ -88,11 +88,11 @@
 - show created date and created by in show page of child 
 ---
 
-## 🔹 Status Permissions
+##  ✔  Status Permissions
 
 # CHILD STATUS WORKFLOW
 
-## 🔹 Task Flow
+##  ✔  Task Flow
 
 | Task            | Access                               | Status                     | Notifications |
 |-----------------|--------------------------------------|----------------------------|--------------|
@@ -103,7 +103,7 @@
 
 ---
 
-## 🔹 Important Notes
+##  ✔  Important Notes
 
 - If a **Manager** performs Approve or Withdrawal, the status will **not change immediately**.  
 - A notification will be sent to Admin and Superadmin.  
@@ -123,7 +123,7 @@
 
 A separate entry (status history table) is required in the database to track all status changes.
 
-## 🔹 Audit Log Requirements
+##  ✔  Audit Log Requirements
 
 The system must track:
 
@@ -147,11 +147,11 @@ These fields are mandatory for proper tracking and auditing.
 
 # 5️⃣ WAITING LIST MODULE 
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Waiting List Entries  
 
-## 🔹 Roles
+##  ✔  Roles
 
 | Role                | Permission                                                                    |
 |---------------------|-------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ These fields are mandatory for proper tracking and auditing.
 
 # 6️⃣ FEES REPORTS MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 ### 1️⃣ Create Report
 
@@ -190,7 +190,7 @@ These fields are mandatory for proper tracking and auditing.
 - View all saved reports  
 - Filter by date / center  
 
-## 🔹 Roles
+##  ✔  Roles
 
 | Role                         | Permission |
 |------------------------------|------------|
@@ -201,18 +201,18 @@ These fields are mandatory for proper tracking and auditing.
 
 # 7️⃣ EMPLOYEE REPORTS MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Employee  
 
-## 🔹 Roles & Permissions
+##  ✔  Roles & Permissions
 
 | Role                | Permission                                                   |
 |---------------------|-------------------------------------------------------------|
 | Admin & Superadmin  | Full access (Create, View, Update, Delete Employee)        |
 | Manager             | View only (Center-wise)                                    |
 
-## 🔹 Employee Status
+##  ✔  Employee Status
 
 - Default: **Active**  
 - If resign date is added → Status = **Resigned**  
@@ -222,11 +222,11 @@ These fields are mandatory for proper tracking and auditing.
 
 # 8️⃣ EMPLOYEE WAITING LIST MODULE
 
-## 🔹 Features (Per Center)
+##  ✔  Features (Per Center)
 
 - Create, View, Update, Delete Employee Waiting  
 
-## 🔹 Roles & Permissions
+##  ✔  Roles & Permissions
 
 | Role                | Permission                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
@@ -238,7 +238,7 @@ These fields are mandatory for proper tracking and auditing.
 
 # 9️⃣ WAGE REPORT MODULE
 
-## 🔹 Features
+##  ✔  Features
 
 1. Monthly Employee Report (Admin)  
 2. List Report  
@@ -260,7 +260,7 @@ These fields are mandatory for proper tracking and auditing.
   - Created date & time  
   - Updated date & time  
 
-## 🔹 Security
+##  ✔  Security
 
 Documents must be moved from: Public > Storage 
 
@@ -306,7 +306,7 @@ Gallery must have two sections:
 
 ---
 
-## 🔹 Timeline & Task Management
+##  ✔  Timeline & Task Management
 
 - Each Admin in the center is assigned tasks with a specific date or time.  
 - All assigned tasks are visible in the timeline view.  
@@ -314,7 +314,7 @@ Gallery must have two sections:
 - Newly joined employees remain under probation for 3 months.  
 - Probation status is tracked in the system until completion.  
 
-## 🔹 Notifications
+##  ✔  Notifications
 
 - On probation date (via employee email)  
 - On child creation  
