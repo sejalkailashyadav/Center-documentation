@@ -84,6 +84,8 @@
 - Automatically, the next day status = **Archive**  
 - No longer active in the system  
 
+### Show Child 
+- show created date and created by in show page of child 
 ---
 
 ## 🔹 Status Permissions
