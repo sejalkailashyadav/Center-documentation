@@ -88,16 +88,60 @@
 
 ## 🔹 Status Permissions
 
-| Status      | Admin & Superadmin | Manager |
-|------------|--------------------|----------|
-| Create     | Full access        | Full access |
-| Review     | Approve / Reject   | Edit |
-| Withdrawal | Approve (if approved by Admin & Superadmin, status becomes Withdrawal) | Initiate |
-| Archive    | View               | View |
+# CHILD STATUS WORKFLOW
 
-> Notification sent to Admin & Superadmin and Manager on create, approve, and withdrawal actions.
+## 🔹 Task Flow
+
+| Task            | Access                               | Status                     | Notifications |
+|-----------------|--------------------------------------|----------------------------|--------------|
+| Create Child    | Admin, Superadmin, Manager           | Review (Default)           | On create, notification sent to Admin, Superadmin, and Manager |
+| Approve Child   | Admin, Superadmin                    | Active                     | Child becomes Active. Notification sent to Admin, Superadmin, and Manager |
+| Withdraw Child  | Admin, Superadmin                    | Withdrawal                 | Child becomes Withdrawal. Notification sent to Admin, Superadmin, and Manager |
+| Archive         | Automatic (Cron Job)                 | Archive                    | Automatically archived when the withdrawal date is reached (checked on the first day of each month) |
 
 ---
+
+## 🔹 Important Notes
+
+- If a **Manager** performs Approve or Withdrawal, the status will **not change immediately**.  
+- A notification will be sent to Admin and Superadmin.  
+- The status will change only after Admin or Superadmin approval.  
+
+### Status Change Rules
+
+- Review → Active:  
+  If Manager approves, status remains **Review** until Admin approves. After Admin approval, status becomes **Active**.  
+
+- Active → Withdrawal:  
+  If Manager initiates withdrawal, status remains **Active** until Admin approves. After Admin approval, status becomes **Withdrawal**.  
+
+---
+
+# DATABASE REQUIREMENTS
+
+A separate entry (status history table) is required in the database to track all status changes.
+
+## 🔹 Audit Log Requirements
+
+The system must track:
+
+- Who created the record  
+- Who updated the record  
+- Created date & time  
+- Updated date & time  
+
+---
+
+# CHILD MASTER TABLE REQUIREMENTS
+
+In addition to the status history table, the **Child Master** table must include:
+
+- `created_at`  
+- `updated_at`  
+- `created_by`  
+- `updated_by`  
+
+These fields are mandatory for proper tracking and auditing.
 
 # 5️⃣ WAITING LIST MODULE 
 
