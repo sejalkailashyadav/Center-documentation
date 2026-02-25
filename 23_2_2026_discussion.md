@@ -292,8 +292,8 @@ Documents must be moved from: Public > Storage
 
 Gallery must have two sections:
 
-- Minor Section  
-- Major Section  
+- Minor incidence  
+- Major incidence  
 
 ---
 
