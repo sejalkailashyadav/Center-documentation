@@ -1,6 +1,6 @@
-# Melisa's Setup Update
+# Next Level Childcare Setup Update
 
-## 🧑‍💼 Staff Module Updates
+##  Staff Module Updates
 
 | Feature                                          | Status      |
 | ------------------------------------------------ | ----------- |
@@ -12,7 +12,7 @@
 
 ---
 
-## 👶 Child Module Updates
+##  Child Module Updates
 
 | Feature                           | Status                | Notes                                                                  |
 | --------------------------------- | --------------------- | ---------------------------------------------------------------------- |
@@ -25,7 +25,7 @@
 
 ---
 
-## 🏢 Center Module Updates
+##  Center Module Updates
 
 | Feature                   | Status  |
 | ------------------------- | ------- |
