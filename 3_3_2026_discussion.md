@@ -18,7 +18,7 @@ Note : Field added but working on Design
 | Feature                           | Status                | Notes                                                                  |
 | --------------------------------- | --------------------- | ---------------------------------------------------------------------- |
 | Second Parent Email               | ✅ New Feature – Added |                                                                        |
-| Multiple Sibling Entries          | ✅ New Feature – Added |                                                                        |
+| Multiple Sibling Entries          | ✅ New Feature – Added |  do you want mutiple Sibling Entries ?                                                                      |
 | Child Home Address                | ✅ New Feature – Added |                                                                        |
 | Fees by Classroom Duplication     | ✅ Fixed               |                                                                        |
 | CC Children – Day Selection Limit | ✔ Working as Designed | If 5 days are selected, one must be unselected before choosing another |
