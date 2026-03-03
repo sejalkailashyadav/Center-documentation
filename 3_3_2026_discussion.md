@@ -1,4 +1,4 @@
-# Next Level Childcare Setup Update
+# Next Level Childcare – Setup Update
 
 ##  Staff Module Updates
 
@@ -10,23 +10,27 @@
 | Staff Home Address                               | ✅ Added     |
 | Upload Amendments                                | ✅ Added     |
 
-Note : Field added but working on Design
+**Note:** Some newly added fields are functional. UI design improvements are currently in progress.
+
 ---
 
 ##  Child Module Updates
 
-| Feature                           | Status                | Notes                                                                  |
-| --------------------------------- | --------------------- | ---------------------------------------------------------------------- |
-| Second Parent Email               | ✅ New Feature – Added |                                                                        |
-| Multiple Sibling Entries          | ✅ New Feature – Added |  do you want mutiple Sibling Entries ?                                                                      |
-| Child Home Address                | ✅ New Feature – Added |                                                                        |
-| Fees by Classroom Duplication     | ✅ Fixed               |                                                                        |
-| CC Children – Day Selection Limit | ✔ Working as Designed | If 5 days are selected, one must be unselected before choosing another |
-| Classroom Filter Not Working      | ✅ Fixed               |                                                                        |
+| Feature                           | Status                | Notes                                                                   |
+| --------------------------------- | --------------------- | ----------------------------------------------------------------------- |
+| Second Parent Email               | ✅ Added               |                                                                         |
+| Multiple Sibling Entries          | ✅ Added               | Please confirm if you would like multiple sibling entries enabled ?     |
+| Child Home Address                | ✅ Added               |                                                                         |
+| Fees by Classroom Duplication     | ✅ Fixed               |                                                                         |
+| CC Children – Day Selection Limit | ✔ Working as Designed | If 5 days are selected, one must be unselected before choosing another. |
+| Classroom Filter Not Working      | ✅ Fixed               |                                                                         |
+
+**Pending:**
+The above updates in **Child Master** are completed. However, these changes are still pending in the **“View Child Information”** section.
 
 ---
 
-##  Center Module Updates
+## 🏢 Center Module Updates
 
 | Feature                   | Status  |
 | ------------------------- | ------- |
