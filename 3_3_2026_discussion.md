@@ -52,20 +52,3 @@
 | Summary Auto-Email to Superadmin | To Be Developed |
 
 ---
-
-# 🔎 Pending Clarifications
-
-1. What type of **amendments** need uploading? (Employment contract updates, salary changes, policy acknowledgments, etc.)
-2. Confirm if **Volunteer Access Code** should exist:
-
-   * Under Staff Module only?
-   * Or both Center + Staff level?
-3. Should Staff and Child home address include:
-
-   * Street
-   * City
-   * Province
-   * Postal Code
-   * Country
-
----
