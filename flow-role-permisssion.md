@@ -295,3 +295,54 @@ You already implemented these:
 | Approve Withdrawal | ❌       | ✅     | ✅          |
 | Delete Child       | ❌       | ✅     | ✅          |
 | Request Delete     | ✅       | ❌     | ❌          |
+
+
+
+EMAIL ::::::::::::::
+Child created ::::::: : done
+
+Review -> Active 
+   │
+   ├─ Manager → Request approve :::::::::: : done
+   │        ↓
+   │   Nofify all with email 
+   │        ↓
+   │   Admin Approve "approve Request"
+   │        ↓
+   │   child approved /active  status=1 ::::::::: : done
+   │
+   └─ Admin → Direct approve  
+            ↓
+        child approved/active  status=1 
+
+Active -> Withdeawal 
+   │
+   ├─ Manager → Request Withdrawal   :::::::::: : pending  
+   │        ↓
+   │   Nofify all with email 
+   │        ↓
+   │   Admin Approve Withdrawal Request
+   │        ↓
+   │   status = 2
+   │
+   └─ Admin → Direct Withdrawal ::::::::::  : done
+            ↓
+        status = 2
+
+Withdeawal -> Delete Child 
+   │
+   ├─ Manager → Request delete ::::::::::: : done
+   │        ↓
+   │   Nofify all with email 
+   │        ↓
+   │   Admin Approve delete Request
+   │        ↓
+   │   child deleted  :::::::::::::::  : pending 
+   │
+   └─ Admin → Direct delete
+            ↓
+        child deleted 
+
+
+
+
