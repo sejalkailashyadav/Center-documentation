@@ -1,8 +1,4 @@
-You already implemented most of the **role-based child flow (Admin / Manager)** correctly. I’ll explain the **complete flow of Roles & Permissions for Child Management** based on your code so you clearly understand what happens at each stage.
-
----
-
-# 1️⃣ Roles in Your System
+# 1️⃣ Roles Child master
 
 From your controller and blade:
 
@@ -48,29 +44,43 @@ $statuses = ['Review', 'Active', 'Withdrawal', 'Archive'];
 Here is the **full child flow**.
 
 ```
-Create Child
+
+Flow of child Role -permission 
+
+Create Child (Review) (Notify email )
      │
      ▼
-Status = 0 (Review)
-     │
-     │ Manager → Request Approval
+Status = 0 (Review)  
+     │ 
+     │ Manager → Request Approval (Notify email )
      │
      ▼
-Admin Approves
+Admin Approves (Notify email )
      │
      ▼
 Status = 1 (Active)
      │
-     ├── Manager Request Withdrawal
+     ├── Manager Request Withdrawal (Notify email )
      │
      ▼
-Withdrawal Pending
+Withdrawal Pending 
      │
      ▼
-Admin Approves Withdrawal
+Admin Approves Withdrawal (Notify email )
      │
      ▼
 Status = 2 (Withdrawal)
+     │
+     ├── Manager Request delete (Notify email )
+     │
+     ▼
+delete Pending 
+     │
+     ▼
+Admin Approves delete (Notify email )
+     │
+     ▼
+Child delete form system 
 ```
 
 ---
