@@ -281,7 +281,7 @@ You already implemented these:
 | Withdrawal Approved    | `ChildStatusChanged`                 |
 | Delete Request         | `ChildDeletePendingNotification`     |
 
----
+```
 
 # 🔟 Complete Role Permission Table
 
@@ -296,30 +296,29 @@ You already implemented these:
 | Delete Child       | ❌       | ✅     | ✅          |
 | Request Delete     | ✅       | ❌     | ❌          |
 
-
-
+---
 EMAIL ::::::::::::::
 Child created ::::::: : done
 
-Review -> Active 
+Review -> Active
    │
    ├─ Manager → Request approve :::::::::: : done
    │        ↓
-   │   Nofify all with email 
+   │   Nofify all with email
    │        ↓
    │   Admin Approve "approve Request"
    │        ↓
    │   child approved /active  status=1 ::::::::: : done
    │
-   └─ Admin → Direct approve  
+   └─ Admin → Direct approve
             ↓
-        child approved/active  status=1 
+        child approved/active  status=1
 
-Active -> Withdeawal 
+Active -> Withdeawal
    │
-   ├─ Manager → Request Withdrawal   :::::::::: : pending  
+   ├─ Manager → Request Withdrawal   :::::::::: : pending
    │        ↓
-   │   Nofify all with email 
+   │   Nofify all with email
    │        ↓
    │   Admin Approve Withdrawal Request
    │        ↓
@@ -329,20 +328,18 @@ Active -> Withdeawal
             ↓
         status = 2
 
-Withdeawal -> Delete Child 
+Withdeawal -> Delete Child
    │
    ├─ Manager → Request delete ::::::::::: : done
    │        ↓
-   │   Nofify all with email 
+   │   Nofify all with email
    │        ↓
    │   Admin Approve delete Request
    │        ↓
-   │   child deleted  :::::::::::::::  : pending 
+   │   child deleted  :::::::::::::::  : pending
    │
    └─ Admin → Direct delete
             ↓
-        child deleted 
-
-
-
+        child deleted
+```
 
