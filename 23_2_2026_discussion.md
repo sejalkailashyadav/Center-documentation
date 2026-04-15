@@ -320,3 +320,155 @@ Gallery must have two sections:
 - On child creation  
 - On child approval  
 - On child withdrawal  
+
+
+
+## 1.  Timeline & Task Management
+
+### Features
+
+* Super Admin can **create and assign tasks** to any system user.
+* Each task includes:
+
+  * Date
+  * Time
+  * Assigned user
+  * Last updated timestamp
+* Users can:
+
+  * Mark tasks as **Completed** or **Pending**
+  * Add notes to tasks
+* Super Admin permissions:
+
+  * Add tasks
+  * Edit tasks
+  * Delete tasks
+* Managers can:
+
+  * View tasks
+  * Update task status (**Overdue, Pending, Completed**)
+
+### Advanced Functionality
+
+* **Recurring Tasks**
+
+  * Automatically generated based on a predefined schedule
+
+* **Views**
+
+  * Timeline View: Displays all tasks chronologically
+  * Thread View: Displays notes in a conversation format
+
+### Notifications
+
+* Email notification sent to Admin:
+
+  * **1 day before task due date**
+
+### Manager Configuration
+
+* Ability to **assign manager-wise email addresses**
+* Used to specify managers for a particular center
+
+---
+
+## 2.  Notification Section
+
+### Child Notifications
+
+#### Approval Workflow Includes:
+
+* Create Child Request
+* Approval Process
+* Approve Request
+* Withdrawal
+* Withdrawal Request
+* Delete
+* Delete Request
+
+---
+
+## 3.  Monthly Employee Summary (Automated Report)
+
+### Schedule
+
+* Sent on: **1st of every month**
+
+### Report Period Example
+
+* `2026-03-01 to 2026-03-31`
+
+### Includes:
+
+1. New Joiners (Last Month)
+2. Completed Probation (Last Month)
+3. Last Working Day (Last Month)
+4. Expired Documents (Last Month)
+5. Upcoming Completed Probation (Next Month)
+6. Upcoming Expiring Documents (Next Month)
+
+---
+
+## 4.  Dashboard
+
+### Display Metrics
+
+* New Joiners (Monthly Summary)
+* Completed Probation (Monthly Summary)
+* Last Working Day
+* Expired Documents
+* Upcoming Completed Probation
+* Upcoming Expiring Documents
+
+### Additional Features
+
+* Quick Links integrated with dashboard
+* All key summaries visible at a glance
+
+---
+
+## 5. Child Master Changes
+
+### Enhancements Required
+
+* Add **search functionality**:
+
+  * Search by Parent Name
+  * Search by Child Name
+* Add **status-based filtering**
+
+---
+
+## 6.  Report Changes
+
+### Requirements
+
+#### Merge Report Section
+
+* Add **Excel format export**
+
+  * Same format as existing **Fee Report**
+
+#### Status Validation
+
+* Cross-check report statuses:
+
+  * Existing
+  * New
+  * Withdrawals
+* Ensure consistency:
+
+  * In Fee Report
+  * During Report Creation
+
+#### Grouping
+
+* Add:
+
+  * Folder-wise grouping OR
+  * Tag-based categorization
+* Purpose:
+
+  * Segregate reports **month-wise**
+  * Improve report management and retrieval
+
