@@ -306,169 +306,77 @@ Gallery must have two sections:
 
 ---
 
-##  ✔  Timeline & Task Management
+### Timeline & Task Management
 
-- Each Admin in the center is assigned tasks with a specific date or time.  
-- All assigned tasks are visible in the timeline view.  
-- Tasks can be created per user.  
-- Newly joined employees remain under probation for 3 months.  
-- Probation status is tracked in the system until completion.  
-
-##  ✔  Notifications
-
-- On probation date (via employee email)  
-- On child creation  
-- On child approval  
-- On child withdrawal  
-
-
-
-## 1.  Timeline & Task Management
-
-### Features
-
-* Super Admin can **create and assign tasks** to any system user.
-* Each task includes:
-
-  * Date
-  * Time
-  * Assigned user
-  * Last updated timestamp
-* Users can:
-
-  * Mark tasks as **Completed** or **Pending**
-  * Add notes to tasks
-* Super Admin permissions:
-
-  * Add tasks
-  * Edit tasks
-  * Delete tasks
-* Managers can:
-
-  * View tasks
-  * Update task status (**Overdue, Pending, Completed**)
-
-### Advanced Functionality
-
-* **Recurring Tasks**
-
-  * Automatically generated based on a predefined schedule
-
-* **Views**
-
-  * Timeline View: Displays all tasks chronologically
-  * Thread View: Displays notes in a conversation format
-
-### Notifications
-
-* Email notification sent to Admin:
-
-  * **1 day before task due date**
-
-### Manager Configuration
-
-* Ability to **assign manager-wise email addresses**
-* Used to specify managers for a particular center
+* The Super Admin can create and assign tasks to any system user.
+* Each task includes a date, time, assigned user, and last updated time.
+* Users can mark tasks as completed or pending and add notes.
+* The Super Admin can add, edit, and delete tasks.
+* Managers can view tasks and update their status (overdue, pending, completed).
+* Recurring tasks are automatically generated based on a schedule.
+* All tasks are displayed in a timeline view, and notes are shown in a thread view.
+* The admin receives an email notification one day before a task’s due date.
+* Manager-wise email addresses can be added to specify managers for a particular center.
 
 ---
 
-## 2.  Notification Section
+### Notification Section
 
-### Child Notifications
+Child Notifications
 
-#### Approval Workflow Includes:
+* Approval workflow includes:
 
-* Create Child Request
-* Approval Process
-* Approve Request
-* Withdrawal
-* Withdrawal Request
-* Delete
-* Delete Request
+  * Create child request
+  * Approval
+  * Approve request
+  * Withdrawal
+  * Withdrawal request
+  * Delete
+  * Delete request
 
 ---
 
-## 3.  Monthly Employee Summary (Automated Report)
+### Summary of Employee Master (Sent on the 1st of Every Month)
 
-### Schedule
-
-* Sent on: **1st of every month**
-
-### Report Period Example
-
-* `2026-03-01 to 2026-03-31`
-
-### Includes:
+Period: 2026-03-01 to 2026-03-31
 
 1. New Joiners (Last Month)
 2. Completed Probation (Last Month)
-3. Last Working Day (Last Month)
+3. Last Day of Working (Last Month)
 4. Expired Documents (Last Month)
-5. Upcoming Completed Probation (Next Month)
-6. Upcoming Expiring Documents (Next Month)
+5. Upcoming Completed Probation (Upcoming Month)
+6. Upcoming Expiring Documents (Upcoming Month)
 
 ---
 
-## 4.  Dashboard
-
-### Display Metrics
+### Dashboard
 
 * New Joiners (Monthly Summary)
 * Completed Probation (Monthly Summary)
-* Last Working Day
+* Last Day of Working
 * Expired Documents
 * Upcoming Completed Probation
 * Upcoming Expiring Documents
-
-### Additional Features
-
-* Quick Links integrated with dashboard
-* All key summaries visible at a glance
+* Displayed on the dashboard along with quick links
 
 ---
 
-## 5. Child Master Changes
+### Child Master Changes
 
-### Enhancements Required
-
-* Add **search functionality**:
-
-  * Search by Parent Name
-  * Search by Child Name
-* Add **status-based filtering**
+* The child list should support search functionality for both parent and child names.
+* Search should also be possible based on status, with proper filtering options.
 
 ---
 
-## 6.  Report Changes
+### Report Changes
 
-### Requirements
-
-#### Merge Report Section
-
-* Add **Excel format export**
-
-  * Same format as existing **Fee Report**
-
-#### Status Validation
-
-* Cross-check report statuses:
+* In the Merge Report section, we need the same Excel format as used in the Fee Report.
+* Cross-check report status categories:
 
   * Existing
   * New
   * Withdrawals
-* Ensure consistency:
+    (These should match the Fee Report list and apply during report creation.)
+* A folder-wise or tagging section is required to group and segregate reports month-wise.
 
-  * In Fee Report
-  * During Report Creation
-
-#### Grouping
-
-* Add:
-
-  * Folder-wise grouping OR
-  * Tag-based categorization
-* Purpose:
-
-  * Segregate reports **month-wise**
-  * Improve report management and retrieval
-
+---
