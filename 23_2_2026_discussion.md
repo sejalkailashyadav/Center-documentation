@@ -280,14 +280,6 @@ Documents must be moved from: Public > Storage
 
 ---
 
-# ACCOUNTING (ACCB) MODULE
-
-- Export PDF data to CSV.  
-- Directly upload into each report.  
-- Automatic counting functionality is required.  
-
----
-
 # CLASS MANAGEMENT
 
 Gallery must have two sections:
@@ -380,6 +372,14 @@ Period: 2026-03-01 to 2026-03-31
 * A folder-wise or tagging section is required to group and segregate reports month-wise.
 
 ---
+# ACCOUNTING (ACCB) MODULE
+
+- Export PDF data to CSV.  
+- Directly upload into each report.  
+- Automatic counting functionality is required.  
+
+---
+
 # Cneter 
 
 * Add delete options in edit doc section 
