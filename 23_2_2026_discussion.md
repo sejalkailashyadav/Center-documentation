@@ -380,3 +380,6 @@ Period: 2026-03-01 to 2026-03-31
 * A folder-wise or tagging section is required to group and segregate reports month-wise.
 
 ---
+# Cneter 
+
+* Add delete options in edit doc section 
