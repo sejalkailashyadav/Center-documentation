@@ -251,14 +251,7 @@ These fields are mandatory for proper tracking and auditing.
 
 ---
 
-# GENERAL SYSTEM RULES
 
-- All delete operations must be **Soft Delete**  
-- Audit log must track:
-  - Who created  
-  - Who updated  
-  - Created date & time  
-  - Updated date & time  
 
 ##  ✔  Security
 
@@ -330,8 +323,6 @@ Child Notifications
 
 ### Summary of Employee Master (Sent on the 1st of Every Month)
 
-Period: 2026-03-01 to 2026-03-31
-
 1. New Joiners (Last Month)
 2. Completed Probation (Last Month)
 3. Last Day of Working (Last Month)
@@ -380,6 +371,17 @@ Period: 2026-03-01 to 2026-03-31
 
 ---
 
-# Cneter 
+# Center 
 
 * Add delete options in edit doc section 
+
+# GENERAL SYSTEM RULES
+
+- All delete operations must be **Soft Delete**  
+- Audit log must track:
+  - Who created  
+  - Who updated  
+  - Created date & time  
+  - Updated date & time  
+
+# UI Changes 
