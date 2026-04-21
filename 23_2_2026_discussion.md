@@ -344,14 +344,14 @@ Child Notifications
 
 ---
 
-### Child Master Changes
+### Child Master
 
 * The child list should support search functionality for both parent and child names.
 * Search should also be possible based on status, with proper filtering options.
 
 ---
 
-### Report Changes
+### Report 
 
 * In the Merge Report section, we need the same Excel format as used in the Fee Report.
 * Cross-check report status categories:
@@ -361,13 +361,6 @@ Child Notifications
   * Withdrawals
     (These should match the Fee Report list and apply during report creation.)
 * A folder-wise or tagging section is required to group and segregate reports month-wise.
-
----
-# ACCOUNTING (ACCB) MODULE
-
-- Export PDF data to CSV.  
-- Directly upload into each report.  
-- Automatic counting functionality is required.  
 
 ---
 
@@ -392,3 +385,11 @@ Child Notifications
 * This user should have only manager-level access.
 * The Regional Manager should be able to manage multiple locations (centers).
 * Start with Melissa’s setup first.
+
+# ACCOUNTING (ACCB) MODULE
+
+- Export PDF data to CSV.  
+- Directly upload into each report.  
+- Automatic counting functionality is required.  
+
+---
