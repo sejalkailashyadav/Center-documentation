@@ -386,7 +386,7 @@ Child Notifications
 
 # UI Changes 
 
-**User Management**
+# User Management**
 
 * Add one user as a **Regional Manager** who has access to different centers under a single login.
 * This user should have only manager-level access.
