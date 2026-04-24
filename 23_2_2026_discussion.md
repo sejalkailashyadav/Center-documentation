@@ -344,13 +344,6 @@ Child Notifications
 
 ---
 
-### Child Master
-
-* The child list should support search functionality for both parent and child names.
-* Search should also be possible based on status, with proper filtering options.
-
----
-
 ### Report 
 
 * In the Merge Report section, we need the same Excel format as used in the Fee Report.
@@ -371,6 +364,13 @@ Child Notifications
 * The Regional Manager should be able to manage multiple locations (centers).
 * Start with Melissa’s setup first.
   
+### Child Master
+
+* The child list should support search functionality for both parent and child names.
+* Search should also be possible based on status, with proper filtering options.
+
+---
+
 # Center 
 
 * Add delete options in edit doc section 
