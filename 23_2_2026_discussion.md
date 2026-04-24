@@ -364,6 +364,13 @@ Child Notifications
 
 ---
 
+# User Management
+
+* Add one user as a **Regional Manager** who has access to different centers under a single login.
+* This user should have only manager-level access.
+* The Regional Manager should be able to manage multiple locations (centers).
+* Start with Melissa’s setup first.
+  
 # Center 
 
 * Add delete options in edit doc section 
@@ -378,13 +385,6 @@ Child Notifications
   - Updated date & time  
 
 # UI Changes 
-
-# User Management
-
-* Add one user as a **Regional Manager** who has access to different centers under a single login.
-* This user should have only manager-level access.
-* The Regional Manager should be able to manage multiple locations (centers).
-* Start with Melissa’s setup first.
 
 # ACCOUNTING (ACCB) MODULE
 
