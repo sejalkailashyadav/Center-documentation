@@ -332,28 +332,15 @@ Child Notifications
 
 ---
 
-### Dashboard
+# Dashboard
 
 * New Joiners (Monthly Summary)
-* Completed Probation (Monthly Summary)
+* Completed Probation (Monthly Summary) 
 * Last Day of Working
 * Expired Documents
 * Upcoming Completed Probation
 * Upcoming Expiring Documents
 * Displayed on the dashboard along with quick links
-
----
-
-### Report 
-
-* In the Merge Report section, we need the same Excel format as used in the Fee Report.
-* Cross-check report status categories:
-
-  * Existing
-  * New
-  * Withdrawals
-    (These should match the Fee Report list and apply during report creation.)
-* A folder-wise or tagging section is required to group and segregate reports month-wise.
 
 ---
 
@@ -363,6 +350,56 @@ Child Notifications
 * This user should have only manager-level access.
 * The Regional Manager should be able to manage multiple locations (centers).
 * Start with Melissa’s setup first.
+
+---
+
+# Report 
+
+* In the Merge Report section, we need the same Excel format as used in the Fee Report.
+* Cross-check report status categories:
+
+  * Existing
+  * New
+  * Withdrawals
+    (These should match the Fee Report list and apply during report creation.)
+* A folder-wise or tagging section is required to group and segregate reports month-wise.
+      User  can create folders inside folders and organize reports by year and month..
+      we can move reports by adding a Finalize button on each report row.
+
+---
+
+#  Task Managment 
+
+<img width="475" height="845" alt="image" src="https://github.com/user-attachments/assets/c07eaefd-55a7-44c4-987d-aa96d7142daa" />
+"Why I don’t see Pooja”s user name here?"
+
+<img width="475" height="845" alt="image" src="https://github.com/user-attachments/assets/de3b22ef-4219-4834-b51a-a66272fec9dc" />
+"Can we remove mandatory to select centre and also allow to assign to user"
+
+# Next-Level Setup Changes
+
+<img width="388" height="845" alt="image" src="https://github.com/user-attachments/assets/dd91779d-5985-4b67-b041-ae9ab2740239" />
+
+* The child list should include filtering by age (ascending/descending).
+* Filter staff by location in the staff listing.
+* Filter centres by region — needs discussion.
+* Center Management changes:
+  * `CRC PAYROLL` → `CRC ID`
+  * `CRC BUSINESS NO` → `Business No`
+* Added Vancouver and Chef's Corner, but duplicate entries appear in the centres list — needs discussion.
+* Add a section for wage increases and dates:
+  * Wage increase: `$ amount`
+  * Date when wages should be updated
+* Add search options for staff and children.
+
+
+* here are the issues I’m currently having with the portal.
+I’m unable to create and save a new child profile because there is no fee schedule added (I’ve attached a screenshot for reference). It also won’t allow me to select the days of attendance. When I try to click “create child,” at the bottom it says that I’m missing banking information, but there are no indicators showing that those fields are required.
+Additionally, not an urgent issue, but I noticed there are two “E’s” in “Enter Home Address” if that’s something they can or want to correct if they're already in there!
+I’ve attached screenshots to help, hopefully they’re useful!
+<img width="1280" height="434" alt="image" src="https://github.com/user-attachments/assets/86980325-d3fe-45d8-bc70-a4ef4e3f5489" />
+
+---
   
 ### Child Master
 
@@ -384,7 +421,7 @@ Child Notifications
   - Created date & time  
   - Updated date & time  
 
-# UI Changes 
+# Whole System UI Changes 
 
 # ACCOUNTING (ACCB) MODULE
 
