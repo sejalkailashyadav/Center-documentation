@@ -399,6 +399,7 @@ Additionally, not an urgent issue, but I noticed there are two “E’s” in �
 I’ve attached screenshots to help, hopefully they’re useful!
 <img width="1280" height="434" alt="image" src="https://github.com/user-attachments/assets/86980325-d3fe-45d8-bc70-a4ef4e3f5489" />
 
+* Let’s create one email address where all people who are testing their system, if they have any issues they can send us an email and you guys can directly solve this and respond back to them with solutions or what to do.
 ---
   
 ### Child Master
