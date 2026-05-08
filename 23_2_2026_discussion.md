@@ -1,6 +1,35 @@
 # Role Permission  
 
 ---
+#### **Super Admin**
+
+* Has full access to all modules and features.
+
+#### **Admin**
+
+* Has full access except for:
+
+  * Wage Access
+  * User Access
+  * Report Copy
+  * Merge
+  * Repo Access
+
+#### **Admin Fee**
+
+* Has the same access as Admin.
+* Additionally, has access to the **“Admin Fee Report Section.”**
+
+#### **Regional Manager**
+
+* Has the same access as Manager.
+* Only the Super Admin can assign or add multiple managers.
+
+#### **Manager**
+
+* Has limited access restricted to their assigned centers only.
+
+---
 
 # 1️⃣ CENTER MANAGEMENT MODULE
 
