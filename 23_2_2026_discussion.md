@@ -460,5 +460,8 @@ I’ve attached screenshots to help, hopefully they’re useful!
 - Automatic counting functionality is required.  
 
 ---
- these are uploads (PDFs, images), they should NOT be in Git.
-https://chatgpt.com/share/e/69e9bbc6-6b64-8010-a9d6-103015aa0f09
+
+# Responsive webiste  & UI 
+
+-  need to make the entire website responsive and mobile-friendly.
+
