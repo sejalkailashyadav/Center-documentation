@@ -460,8 +460,12 @@ I’ve attached screenshots to help, hopefully they’re useful!
 - Automatic counting functionality is required.  
 
 ---
-
 # Responsive webiste  & UI 
+- Center Managnment
+- Child Managnment
+- Employee Managment
+- Timeline Magagment
+ 
 
 -  need to make the entire website responsive and mobile-friendly.
 
