@@ -1,0 +1,3 @@
+Rules
+: 
+Yes, we can implement exactly that rule. I have not changed any code. For **June 2026 fee report**, status should be: - Admission date in **June 2026** = `NEW` - Admission date in **May 2026** = `NEW` - Admission date in **April 2026 or before** = `EXISTING` - Child status `2` = `WITHDRAWAL` - Child status `3` archive = not shown in report So from your Excel screenshot: `26/5/2026` and `1/5/2026` should be `NEW`; `20/4/2026` and `1/4/2026` should be `EXISTING`. Current fresh report is close, but the copy/save path needs correction so it always uses **selected report month**, not the month the Excel/report was created. I can make that change when you say go.
