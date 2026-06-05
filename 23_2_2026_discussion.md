@@ -468,4 +468,46 @@ I’ve attached screenshots to help, hopefully they’re useful!
  
 
 -  need to make the entire website responsive and mobile-friendly.
+  
+# Employee Module 
+## 1. Employee Profile Workflow Setup
+
+Implement a workflow in the Employee Module similar to the existing **Child Master** process:
+
+**Current Child Master Workflow:**
+
+1. Create
+2. Review
+3. Approve
+
+**Proposed Employee Profile Workflow:**
+
+1. Employee creates the profile.
+2. Manager reviews the profile.
+3. Manager approves the profile.
+
+**Note:** The workflow requirements for the Employee Profile module need further discussion and confirmation.
+
+---
+
+## 2. Reference Letter Upload Enhancement
+
+### Requirement
+
+* Allow uploading of **multiple reference letter documents**.
+* A minimum of **three reference letters** should be supported.
+* Users should be able to upload multiple files without restrictions on a single document upload.
+
+---
+
+## 3. File Upload Issue
+
+### Current Issue
+
+* The file upload functionality currently allows only a **single file upload**.
+
+### Required Fix
+
+* Enable support for **multiple file uploads** where applicable.
+* Verify and resolve any validation or configuration issues preventing multiple document uploads.
 
