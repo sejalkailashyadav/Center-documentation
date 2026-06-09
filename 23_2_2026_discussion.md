@@ -491,6 +491,11 @@ s
 * Add Forgot Password flow with password reset steps.
 * Included re-login process after successful password reset.
 
+* Added Employee Master documentation covering account creation, login, forgot password, and password reset flows.
+* Implemented System Login Logs to track user login activity; accessible only by Super Admin.
+* Moved documents from the public folder to a secure internal location.
+* Improved and organized documentation structure for better maintainability and security.
+  
 # Responsive webiste  & UI 
 - Center Managnment
 - Child Managnment
