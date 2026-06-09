@@ -483,6 +483,9 @@ I’ve attached screenshots to help, hopefully they’re useful!
 - Automatic counting functionality is required.  
 
 ---
+s
+# Employee Module 
+
 * Add step-by-step Employee Master documentation covering employee account creation and management.
 * Documented the complete employee login process.
 * Add Forgot Password flow with password reset steps.
