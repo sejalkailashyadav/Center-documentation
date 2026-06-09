@@ -442,6 +442,29 @@ I’ve attached screenshots to help, hopefully they’re useful!
 
 * Add delete options in edit doc section 
 
+
+
+## 2. Reference Letter Upload Enhancement
+
+### Requirement
+
+* Allow uploading of **multiple reference letter documents**.
+* A minimum of **three reference letters** should be supported.
+* Users should be able to upload multiple files without restrictions on a single document upload.
+
+---
+
+## 3. File Upload Issue
+
+### Current Issue
+
+* The file upload functionality currently allows only a **single file upload**.
+
+### Required Fix
+
+* Enable support for **multiple file uploads** where applicable.
+* Verify and resolve any validation or configuration issues preventing multiple document uploads.
+
 # GENERAL SYSTEM RULES
 
 - All delete operations must be **Soft Delete**  
@@ -460,12 +483,16 @@ I’ve attached screenshots to help, hopefully they’re useful!
 - Automatic counting functionality is required.  
 
 ---
+* Add step-by-step Employee Master documentation covering employee account creation and management.
+* Documented the complete employee login process.
+* Add Forgot Password flow with password reset steps.
+* Included re-login process after successful password reset.
+
 # Responsive webiste  & UI 
 - Center Managnment
 - Child Managnment
 - Employee Managment
 - Timeline Magagment
- 
 
 -  need to make the entire website responsive and mobile-friendly.
   
@@ -489,25 +516,3 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 **Note:** The workflow requirements for the Employee Profile module need further discussion and confirmation.
 
 ---
-
-## 2. Reference Letter Upload Enhancement
-
-### Requirement
-
-* Allow uploading of **multiple reference letter documents**.
-* A minimum of **three reference letters** should be supported.
-* Users should be able to upload multiple files without restrictions on a single document upload.
-
----
-
-## 3. File Upload Issue
-
-### Current Issue
-
-* The file upload functionality currently allows only a **single file upload**.
-
-### Required Fix
-
-* Enable support for **multiple file uploads** where applicable.
-* Verify and resolve any validation or configuration issues preventing multiple document uploads.
-
