@@ -483,7 +483,6 @@ I’ve attached screenshots to help, hopefully they’re useful!
 - Automatic counting functionality is required.  
 
 ---
-s
 # Employee Module 
 
 * Add step-by-step Employee Master documentation covering employee account creation and management.
@@ -503,8 +502,9 @@ s
 - Timeline Magagment
 
 -  need to make the entire website responsive and mobile-friendly.
-  
+
 # Employee Module 
+
 ## 1. Employee Profile Workflow Setup
 
 Implement a workflow in the Employee Module similar to the existing **Child Master** process:
@@ -522,5 +522,45 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 3. Manager approves the profile.
 
 **Note:** The workflow requirements for the Employee Profile module need further discussion and confirmation.
+
+### Fees Master
+
+#### Changes 
+
+1. **Fee Master Access for All User Types**
+
+   * On the **Next Level Childcare** setup, Fee Master access has been enabled for **all user types**.
+
+2. **Fee Master Documentation Add**
+
+   * Added step-by-step documentation explaining how to add fees in Fee Master.
+   * Included a tutorial video for easier understanding and user guidance.
+
+3. **UI/UX Improvements**
+
+   * Enhanced the overall user interface and user experience.
+   * Improved layout, readability, and usability.
+
+4. **Pagination Add**
+
+   * Implemented pagination for better data management and performance.
+
+5. **Sorting Functionality Add**
+
+   * Added sorting options to help users organize records efficiently.
+
+6. **Search Functionality Add**
+
+   * Implemented search functionality for quick and easy record lookup.
+
+7. **General Enhancements**
+
+   * Refined the Fee Master module for better usability, consistency, and overall performance.
+   * Fixed UI-related issues and improved responsiveness.
+
+### Notes
+
+* Fee Master access for all user types is enabled **only for the Next Level Childcare setup**.
+* Documentation and video guide are available within the module for user reference.
 
 ---
