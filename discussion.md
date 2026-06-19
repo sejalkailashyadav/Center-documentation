@@ -564,3 +564,19 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 * Documentation and video guide are available within the module for user reference.
 
 ---
+### Employee Notification Requirements
+
+1. Send a notification when a document is approaching its expiry date.
+
+2. Include the following details in the notification:
+   - Document name
+   - Expiry date
+   - Remaining days until expiry
+
+3. Send an email notification for two cases:
+   - Upcoming document expiry
+   - Missing or pending documents
+
+4. email notifications should automatically stop once the document's expiry date has passed.
+
+5. No further reminders should be sent for documents whose expiry date has already expired.
