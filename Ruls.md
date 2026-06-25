@@ -15,4 +15,4 @@ Examples:
 - July report: July + June = `NEW`; May or before = `EXISTING`
 - August report: August + July = `NEW`; June or before = `EXISTING`
 
-Your current fresh report logic already behaves like this because it uses month difference. The problem is mainly `copyChildren` and `bulkUpdate`, where the copied/saved report status is not calculated consistently with that same dynamic rule.
+
