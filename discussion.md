@@ -580,3 +580,45 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 4. email notifications should automatically stop once the document's expiry date has passed.
 
 5. No further reminders should be sent for documents whose expiry date has already expired.
+
+----------------------------
+
+# Required Changes / Enhancements
+
+## 1. Reports – “NEW” Status Issue
+
+* Fix the issue related to the **“NEW”** status in reports.
+* Ensure records with “NEW” status display correctly in all relevant reports.
+
+## 2. Dashboard – Review Children
+
+* Add an option to **Review Children** directly from the dashboard.
+* Users should be able to:
+
+  * Approve
+  * Reject
+  * Edit
+  * Send Back
+* This should follow the same workflow as the existing approval process.
+
+## 3. Wage Reports
+
+* Retest wage reports after employee changes.
+* Verify that all employee updates are reflected correctly in the reports.
+
+## 4. Role Permissions
+
+* Implement detailed **role-based and module-wise permissions**.
+* Permissions should be configurable individually for each user.
+* Admin should be able to control which modules each user can access.
+
+## 5. Mobile Responsiveness
+
+* Make every module fully mobile-friendly.
+* Ensure all screens are responsive and work properly on mobile devices.
+
+### 6. Admin Logs
+
+* Maintain login and activity logs for all users.
+* Admin can view user login/logout times and accessed modules.
+* Support filtering by user and date.
