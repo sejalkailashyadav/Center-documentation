@@ -622,3 +622,80 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 * Maintain login and activity logs for all users.
 * Admin can view user login/logout times and accessed modules.
 * Support filtering by user and date.
+
+
+4:31 PM 7/1/2026
+
+# Employee Management & System Enhancements
+
+## 1. Employee Management Integration
+
+Integrate the complete Employee Management module, including:
+
+* Employee onboarding and management
+* Employee scheduling
+* Attendance management
+* Payroll roles and permissions
+* Employee reports
+
+---
+
+## 2. Monthly Employee Wage Report
+
+* Update the **Monthly Employee Wage Report** for Admin.
+* Ensure that **Center changes are reflected only within this report** and do not affect other modules.
+
+---
+
+## 3. Employee Flow Documentation & Email Notifications
+
+Prepare and send Employee Flow documentation via email while notify tehir missing docments 
+
+* Login process for existing employees
+* Login process for new employees
+* Account activation instructions
+* Password setup/reset instructions (if applicable)
+
+---
+
+## 4. Dashboard Navigation Improvements
+
+On the Dashboard:
+
+* Make the **Active Child** count clickable and redirect to the respective Child Edit page.
+* Make the **Review Child** count clickable and redirect to the respective Child Edit page.
+* Display the child's name as a clickable link.
+* Ensure the Status button functions correctly.
+
+---
+
+## 5. Data Tables Enhancement
+
+Implement DataTables across all listing pages:
+
+* Enable pagination
+* Search functionality
+* Sorting
+* Export options (if applicable)
+* Support displaying up to **100 entries per page** on all tables.
+
+---
+
+## 6. Child Master – "New" Status Logic
+
+Update the Child Master status logic:
+
+* A child should remain in **"New"** status for **15 days after the Admission Date**.
+* After 15 days, the status should automatically change to **Existing**.
+
+---
+
+## 7. Wage Increase Module
+
+Update the Wage Increase module:
+
+* Remove the **Wage Increase Amount** field if it is no longer required.
+* Correct the **Expiry Date** functionality to match the behavior used in the **ECE** module and so on in other docs & dates.
+* Verify that the expiry date is calculated and displayed correctly.
+
+---
