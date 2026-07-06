@@ -699,3 +699,5 @@ Update the Wage Increase module:
 * Verify that the expiry date is calculated and displayed correctly.
 
 ---
+> [!IMPORTANT]
+> **Center changes should only be reflected within the Monthly Employee Wage Report and must not affect other modules.**
