@@ -628,7 +628,7 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 
 # Employee Management & System Enhancements
 
-## 5. Data Tables Enhancement
+## 1. Data Tables Enhancement
 
 Implement DataTables across all listing pages:
 
@@ -646,7 +646,7 @@ Implement DataTables across all listing pages:
 
 ---
 
-## 4. Dashboard Navigation Improvements
+## 3. Dashboard Navigation Improvements
 
 On the Dashboard:
 
@@ -657,17 +657,7 @@ On the Dashboard:
 
 ---
 
-## 3. Employee Flow Documentation & Email Notifications
-
-Prepare and send Employee Flow documentation via email while notify tehir missing docments 
-
-* Login process for existing employees
-* Login process for new employees
-* Account activation instructions
-* Password setup/reset instructions (if applicable)
-
----
-## 7. Employee Master Module
+## 4. Employee Master Module
 
 Update the Wage Increase module:
 
@@ -676,7 +666,8 @@ Update the Wage Increase module:
 * Verify that the expiry date is calculated and displayed correctly.
 
 ---
-## 6. Child Master – "New" Status Logic
+
+## 5. Child Master – "New" Status Logic
 
 Update the Child Master status logic:
 
@@ -684,8 +675,16 @@ Update the Child Master status logic:
 * After 15 days, the status should automatically change to **Existing**.
 
 ---
+## 6. Employee Flow Documentation & Email Notifications
 
-## 1. Employee Management Integration
+Prepare and send Employee Flow documentation via email while notify tehir missing docments 
+
+* Login process for existing employees
+* Login process for new employees
+* Account activation instructions
+* Password setup/reset instructions (if applicable)
+---
+## 7. Employee Management Integration
 
 Integrate the complete Employee Management module, including:
 
