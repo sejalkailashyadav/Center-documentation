@@ -628,33 +628,21 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 
 # Employee Management & System Enhancements
 
-## 1. Employee Management Integration
+## 5. Data Tables Enhancement
 
-Integrate the complete Employee Management module, including:
+Implement DataTables across all listing pages:
 
-* Employee onboarding and management
-* Employee scheduling
-* Attendance management
-* Payroll roles and permissions
-* Employee reports
+* Enable pagination
+* Search functionality
+* Sorting
+* Export options (if applicable)
+* Support displaying up to **100 entries per page** on all tables.
 
 ---
-
 ## 2. Monthly Employee Wage Report
 
 * Update the **Monthly Employee Wage Report** for Admin.
 * Ensure that **Center changes are reflected only within this report** and do not affect other modules.
-
----
-
-## 3. Employee Flow Documentation & Email Notifications
-
-Prepare and send Employee Flow documentation via email while notify tehir missing docments 
-
-* Login process for existing employees
-* Login process for new employees
-* Account activation instructions
-* Password setup/reset instructions (if applicable)
 
 ---
 
@@ -669,18 +657,25 @@ On the Dashboard:
 
 ---
 
-## 5. Data Tables Enhancement
+## 3. Employee Flow Documentation & Email Notifications
 
-Implement DataTables across all listing pages:
+Prepare and send Employee Flow documentation via email while notify tehir missing docments 
 
-* Enable pagination
-* Search functionality
-* Sorting
-* Export options (if applicable)
-* Support displaying up to **100 entries per page** on all tables.
+* Login process for existing employees
+* Login process for new employees
+* Account activation instructions
+* Password setup/reset instructions (if applicable)
 
 ---
+## 7. Employee Master Module
 
+Update the Wage Increase module:
+
+* Remove the **Wage Increase Amount** field if it is no longer required.
+* Correct the **Expiry Date** functionality to match the behavior used in the **ECE** module and so on in other docs & dates.
+* Verify that the expiry date is calculated and displayed correctly.
+
+---
 ## 6. Child Master – "New" Status Logic
 
 Update the Child Master status logic:
@@ -690,14 +685,16 @@ Update the Child Master status logic:
 
 ---
 
-## 7. Wage Increase Module
+## 1. Employee Management Integration
 
-Update the Wage Increase module:
+Integrate the complete Employee Management module, including:
 
-* Remove the **Wage Increase Amount** field if it is no longer required.
-* Correct the **Expiry Date** functionality to match the behavior used in the **ECE** module and so on in other docs & dates.
-* Verify that the expiry date is calculated and displayed correctly.
+* Employee onboarding and management
+* Employee scheduling
+* Attendance management
+* Payroll roles and permissions
+* Employee reports
 
 ---
-> [!IMPORTANT]
-> **Center changes should only be reflected within the Monthly Employee Wage Report and must not affect other modules.**
+
+
