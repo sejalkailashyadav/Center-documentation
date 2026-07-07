@@ -644,7 +644,8 @@ Implement DataTables across all listing pages:
 * Update the **Monthly Employee Wage Report** for the Admin module.
 * Ensure that any **Center** changes are reflected **only** in this report and do not affect any other modules.
 * Also, in both modules, the employee and center dropdowns should display all available options. This includes all employees and the **All Centers** option, along with every center (e.g., **Cocomelon**, **Wonderful**, etc.) so that all centers are visible in the Wage Reports.
-
+* Change UI also so that reports
+* employee master do one think is that add peoper ui uxs
 
 ---
 
