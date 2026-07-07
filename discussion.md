@@ -654,7 +654,7 @@ On the Dashboard:
 * Make the **Review Child** count clickable and redirect to the respective Child Edit page.
 * Display the child's name as a clickable link.
 * Ensure the Status button functions correctly.
-
+* Same Do for Employees that are show on  Dashboard
 ---
 
 ## 4. Employee Master Module
