@@ -589,7 +589,8 @@ Implement a workflow in the Employee Module similar to the existing **Child Mast
 
 * Fix the issue related to the **“NEW”** status in reports.
 * Ensure records with “NEW” status display correctly in all relevant reports.
-
+* Final rule: If child is withdrawn, show Withdrawal; otherwise child is New only until 15 days after admission date, and after that show Existing based on the report month end date.
+  
 ## 2. Dashboard – Review Children
 
 * Add an option to **Review Children** directly from the dashboard.
