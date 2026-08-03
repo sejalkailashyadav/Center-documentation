@@ -4,11 +4,11 @@
 
 | Feature                                          | Status      |
 | ------------------------------------------------ | ----------- |
-| Termination / Quit / On Leave (Last Day Worked)  | ✅ Added     |
-| COVID Vaccine Proof Requirement                  | ✅ Available |
-| Emergency Contact – Separate Name & Phone Fields | ✅ Added     |
-| Staff Home Address                               | ✅ Added     |
-| Upload Amendments                                | ✅ Added     |
+| Termination / Quit / On Leave (Last Day Worked)  |  Added     |
+| COVID Vaccine Proof Requirement                  |  Available |
+| Emergency Contact – Separate Name & Phone Fields |  Added     |
+| Staff Home Address                               |  Added     |
+| Upload Amendments                                |  Added     |
 
 **Note:** Some newly added fields are functional. UI design improvements are currently in progress.
 
