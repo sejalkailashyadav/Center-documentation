@@ -1,5 +1,5 @@
 
-The rule should be dynamic for **whatever report month is selected**:
+**whatever report month is selected**:
 
 For report month `X`:
 
